@@ -16,6 +16,5 @@ app.use('/api/auth', authRoutes);
 app.use('/api/tasks', taskRoutes);
 
 // Start server
-const PORT = process.env.PORT || 3000;
 
 module.exports = app;
