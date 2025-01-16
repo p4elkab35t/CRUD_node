@@ -45,4 +45,10 @@ router.get('/auth', (req, res) => {
   });
 });
 
+
+// De-authenticate user
+router.get('/deauth', (req, res) => {
+  res.status(200).json({ message: 'Logged out successfully' });
+});
+
 module.exports = router;
